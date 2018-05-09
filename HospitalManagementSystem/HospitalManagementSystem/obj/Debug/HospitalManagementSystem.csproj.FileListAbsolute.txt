@@ -44,3 +44,9 @@ c:\users\h153488\documents\visual studio 2015\Projects\HospitalManagementSystem\
 c:\users\h153488\documents\visual studio 2015\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csprojResolveAssemblyReference.cache
 c:\users\h153488\documents\visual studio 2015\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.dll
 c:\users\h153488\documents\visual studio 2015\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+c:\users\h153488\documents\visual studio 2015\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\EntityFramework.dll
+c:\users\h153488\documents\visual studio 2015\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\EntityFramework.SqlServer.dll
+c:\users\h153488\documents\visual studio 2015\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\EntityFramework.xml
+c:\users\h153488\documents\visual studio 2015\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\EntityFramework.SqlServer.xml
+c:\users\h153488\documents\visual studio 2015\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Migrations.Initial.resources
+c:\users\h153488\documents\visual studio 2015\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.GenerateResource.Cache

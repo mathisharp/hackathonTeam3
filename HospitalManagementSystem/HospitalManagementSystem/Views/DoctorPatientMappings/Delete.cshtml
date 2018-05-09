@@ -1,0 +1,64 @@
+﻿@model HospitalManagementSystem.Models.DoctorPatientMapping
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>DoctorPatientMapping</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DoctorDetails.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoctorDetails.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PatientDetails.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PatientDetails.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FromDateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FromDateTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ToDateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ToDateTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsCancelled)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsCancelled)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
